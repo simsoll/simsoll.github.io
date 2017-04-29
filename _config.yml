@@ -1,1 +1,21 @@
-theme: jekyll-theme-cayman
+# Syntax highlighting
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Simon Søllingvraa
+tagline:             Learning Through Play
+url:                 http://simonsoellingvraa.dk
+baseurl:             /
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _scss
+  style:            :compressed
