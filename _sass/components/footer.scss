@@ -1,23 +1,19 @@
 .footer {
     border-top: 1px solid $epsilon;
     padding: 25px 0;
-    margin: 40px 0 0;
-    font-size: 1.3rem;
+     margin: 40px 0 0;
     color: $gama;
     font-weight: 300;
     text-align: center;
     position: relative;
-
     &__icons {
         margin-bottom: 25px;
     }
-
     &__container {
         margin-bottom: 5px;
     }
     &__link {
         display: inline;
-
         &--special {
             color: $beta;
             text-decoration: none;
@@ -31,6 +27,7 @@
         }
     }
     &__extra {
+        font-size: 1.3rem;
         color: $gama;
         margin-top: 0;
     }
