@@ -1,0 +1,37 @@
+.footer {
+    border-top: 1px solid $epsilon;
+    padding: 25px 0;
+    margin: 40px 0 0;
+    font-size: 1.3rem;
+    color: $gama;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+
+    &__icons {
+        margin-bottom: 25px;
+    }
+
+    &__container {
+        margin-bottom: 5px;
+    }
+    &__link {
+        display: inline;
+
+        &--special {
+            color: $beta;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: ease-in-out all .3s;
+            padding-bottom: 1px;
+            &:hover {
+                color: $beta;
+                border-color: $gama;
+            }
+        }
+    }
+    &__extra {
+        color: $gama;
+        margin-top: 0;
+    }
+}

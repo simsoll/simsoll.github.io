@@ -1,7 +1,12 @@
-<footer class="footer-main">
-    {{ site.name }} © {{ site.time | date: '%Y' }} <a class="link" href="{{ site.url }}/feed.xml" target="_blank"><svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg></a>
-
-    <p class="extra">
-        <a class="link" href="https://github.com/sergiokopplin/indigo">Indigo theme</a> by <a class="link" href="http://koppl.in">Kopplin</a>
+<footer class="footer">
+    <div class="footer__icons">
+        {% include social-links.html %}
+    </div>
+    <div class="footer__container">
+        © Copyright {{ site.time | date: '%Y' }} {{ site.name }} 
+    </div>
+    
+    <p class="footer__extra">
+        Inspired by the <a class="footer__link footer__link--special" href="https://github.com/sergiokopplin/indigo">Indigo theme</a> by <a class="footer__link footer__link--special" href="http://koppl.in">Kopplin</a>
     </p>
 </footer>
