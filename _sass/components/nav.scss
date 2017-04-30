@@ -17,13 +17,12 @@
         text-decoration: none;
         margin: 0;
         font-size: 1.4rem;
-        padding: 12px 0;
-        border-radius: 4%;
+        padding: 12px 0 6px;
         transition: all .4s ease-in-out;
         width: 60px;
 
         &--active {
-            text-decoration: underline;
+            border-bottom: 1px solid $epsilon;
         }
     }
 }
