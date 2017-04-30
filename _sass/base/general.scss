@@ -1,0 +1,317 @@
+body, html {
+	font-size: 62.5%;
+}
+
+body {
+	line-height: 1;
+	font: 16px $fontSans;
+	color: $alpha;
+}
+
+h1, h2, h3, h4 {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+h1 {
+	font-size: 3rem;
+	letter-spacing: -1px;
+	color: $beta;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 2.2rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+h4 {
+	font-size: 1.6rem;
+}
+
+a {
+	color: $delta;
+	text-decoration: underline;
+}
+
+p {
+	line-height: 1.7;
+	color: $alpha;
+	font-weight: 300;
+	margin-bottom: 20px;
+	letter-spacing: 0.4px;
+
+	@media #{$mobile}  {	
+		letter-spacing: 0.2px;
+	}
+}
+
+strong {
+	font-weight: 400;
+	color: #000;
+}
+
+ul,
+ol {
+	li {
+		line-height: 2.4rem;
+		font-weight: 300;
+		color: $alpha;
+	}
+}
+
+img,
+pre,
+iframe {
+	max-width: 100%;
+}
+
+img,
+pre {
+	border-radius: 4px;
+}
+
+figcaption {
+	position: relative;
+	top: -20px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	font-size: 1.3rem;
+	color: $gama;
+	font-weight: 300;
+
+	@media #{$mobile} {
+		font-size: 1.2rem;
+	}
+}
+
+blockquote {
+	padding-left: 15px;
+	border-left: 3px solid #eee;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	margin: 40px auto;
+	background: #eee;
+	width: 100%;
+}
+
+figure.highlight {
+	width: 100%;
+	margin: 0;
+}
+
+code,
+tt {
+	padding: 1px 0;
+	font-family: $fontMonospace;
+	font-size: 12px;
+	line-height: 20px;
+	background: #fff;
+	border-radius: 2px;
+	border-radius: 2px;
+}
+
+pre {
+	box-sizing: border-box;
+	margin: 0 0 1.75em 0;
+	width: 100%;
+	padding: 5px 10px;
+	font-family: $fontMonospace;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	overflow: auto;
+	background: #fff;
+	border: 1px solid $epsilon;
+	border-radius: 2px;
+}
+
+.wrapper-normal,
+.wrapper-large {
+	height: 100%;
+	width: 96%;
+	margin: 0 auto;
+
+	@media #{$mobile} {
+		width: 88%;
+	}
+
+	@media #{$tablet} {
+		width: 88%;
+	}
+}
+
+.wrapper-normal {
+	max-width: 560px;
+}
+
+.wrapper-large {
+	max-width: 810px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+$margin-top: 3rem;
+$margin-bottom: 2rem;
+$footer-links-height: 4rem;
+$copyright-height: 4rem;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:$base-link-color;
+    transition: color 0.5s ease;
+
+    &:hover {
+      color:lighten($base-link-color, 30%);
+    }
+}
+
+section {
+  margin-bottom: $margin-bottom;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+  font-size: 1.0rem;
+  line-height: 1.6;
+}
+
+.site-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.non-footer-wrapper {
+  margin-top: $margin-top;
+  min-height: calc(100vh - (#{$margin-top + $margin-bottom + $footer-links-height + $copyright-height}));
+}
+
+.author-image-wrapper {
+  text-align: center;
+}
+
+.author-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.header-title {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.tag-line {
+  font-size: 1.2rem;
+  margin-bottom: $margin-bottom;
+  text-align: center;
+}
+
+.navigation-bar {
+  border-top: 1px solid lighten($base-color, 70%);
+  border-bottom: 1px solid lighten($base-color, 70%);
+  text-align: center;
+  margin-bottom: $margin-bottom;
+  font-size: 1.3rem;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+.navigation-link {
+  margin-right: 2.0rem;
+  font-size: 1.4rem;
+
+  &--active {
+    text-decoration: underline;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.main-content {
+  margin: 0 2%;
+}
+
+.footer-links {
+  border-top: 1px solid lighten($base-color, 70%);
+  border-bottom: 1px solid lighten($base-color, 70%);
+  height: 5rem;
+  line-height: 5rem;
+  margin-bottom: 0;
+  text-align: center;
+  position: relative;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+
+  i {
+    line-height: 5rem;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.copyright {
+  margin: 0;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  color: lighten($base-color, 50%)
+}
+
+@media screen and (min-width: $screen-large-min) {
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  h2 {
+    font-size: 2.0rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  .navigation-link {
+    font-size: 1.6rem;
+  }
+
+  .footer-link {
+    margin-right: 3rem;
+  }
+}

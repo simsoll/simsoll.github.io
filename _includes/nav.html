@@ -1,0 +1,34 @@
+<nav class="nav">
+    <ul class="nav__list">
+        <li class="nav__item">
+            <a class="nav__link {% if page.title == "Home" %}nav__link--active{% endif %}" href="{{ site.url }}/">
+                Home
+            </a>
+        </li>
+        {% if site.blog == true %}
+        <li class="nav__item">
+            <a class="nav__link {% if page.title == "Blog" %}nav__link--active{% endif %}" href="{{ site.url }}/blog">
+                Blog
+            </a>
+        </li>
+        {% endif %} {% if site.projects == true %}
+        <li class="nav__item">
+            <a class="nav__link {% if page.title == "Projects" %}nav__link--active{% endif %}" href="{{ site.url }}/projects">
+                Projects
+            </a>
+        </li>
+        {% endif %} {% if site.about == true %}
+        <li class="nav__item">
+            <a class="nav__link {% if page.title == "About" %}nav__link--active{% endif %}" href="{{ site.url }}/about">
+                About
+            </a>
+        </li>
+        {% endif %} {% if site.resume == true %}
+        <li class="nav__item">
+            <a class="nav__link {% if page.title == "Résumé" %}nav__link--active{% endif %}" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">
+                Résumé
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+</nav>
