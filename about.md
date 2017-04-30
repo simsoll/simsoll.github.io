@@ -5,7 +5,8 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 <h2>A little about me</h2>
-<p>I'm working as a frontend developer at <a href="http://www.impact.dk/">IMPACT A/S</a>. In my spare time I enjoy learning about anything related to programming and game development while creating games that enables learning through play.</p>
+<p>I'm working as a frontend developer at <a href="http://www.impact.dk/">IMPACT A/S</a>. In my spare time I enjoy learning about anything related to programming and game development while working on various hobby projects.</p>
+
   <div class="flag-wrapper">
     <div class="flag">
       <a href="https://github.com/simsoll">
