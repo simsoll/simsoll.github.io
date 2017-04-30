@@ -16,7 +16,7 @@ resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: http://simsoll.github.io #TODO: change to simonsoellingvraa.com
+url: https://simsoll.github.io #TODO: change to simonsoellingvraa.com
 # your url: http://USERNAME.github.io
 
 permalink: /:title/

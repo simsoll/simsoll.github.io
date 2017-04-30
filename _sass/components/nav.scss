@@ -16,13 +16,17 @@
         font-weight: 300;
         text-decoration: none;
         margin: 0;
-        font-size: 1.4rem;
+        font-size: 1.8rem;
         padding: 12px 0 6px;
         transition: all .4s ease-in-out;
-        width: 60px;
-
+        width: 80px;
         &--active {
             border-bottom: 1px solid $epsilon;
+        }
+        @media screen and (min-width: $screen-large-min) {
+            font-size: 2.4rem;
+            width: 100px;      
+            padding: 18px 0 12px;              
         }
     }
 }
