@@ -1,6 +1,6 @@
 # main text of home
 name: Simon Søllingvraa
-bio: Learning Through Play
+bio: Exploring functional patterns in game development
 
 # twitter summary info
 description: My personal website
@@ -54,18 +54,12 @@ github: simsoll
 # email: myemail@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    simsoll:
+        name: Simon Søllingvraa
+        bio: Exploring functional patterns in game development
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: simsoll
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
