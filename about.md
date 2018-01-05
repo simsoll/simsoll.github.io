@@ -4,6 +4,8 @@ layout: page
 ---
 <h2>A little about me</h2>
 <p>I'm working as a frontend developer at <a href="http://www.impact.dk/">IMPACT A/S</a>. In my spare time I enjoy learning about anything related to functional programming and game development while working on various hobby projects.</p>
+<p>Currently, I'm working my why way through <a href="http://haskellbook.com/">The Haskell Book</a> before delving into <a href="http://www.purescript.org/">PureScript</a>.</p>
+
 
   <div class="flag-wrapper">
     <div class="flag">

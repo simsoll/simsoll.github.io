@@ -3,13 +3,17 @@
     <a class="social-link" title="facebook.com/{{ site.facebook }}" href="http://facebook.com/{{ site.facebook }}" target="_blank">
         <i class="social-link__icon fa fa-facebook fa-2x"></i>
     </a>
-    {% endif %} {% if site.twitter %}
-    <a class="social-link" title="twitter.com/{{ site.twitter }}" href="http://twitter.com/{{ site.twitter }}" target="_blank">
-        <i class="social-link__icon fa fa-twitter fa-2x"></i>
+    {% endif %} {% if site.github %}
+    <a class="social-link" title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank">
+        <i class="social-link__icon fa fa-github fa-2x"></i>
     </a>
     {% endif %} {% if site.twitch %}
     <a class="social-link" title="twitch.com/{{ site.twitch }}" href="http://twitch.com/{{ site.twitch }}" target="_blank">
         <i class="social-link__icon fa fa-twitch fa-2x"></i>
+    </a>
+    {% endif %} {% if site.twitter %}
+    <a class="social-link" title="twitter.com/{{ site.twitter }}" href="http://twitter.com/{{ site.twitter }}" target="_blank">
+        <i class="social-link__icon fa fa-twitter fa-2x"></i>
     </a>
     {% endif %} {% if site.google %}
     <a class="social-link" title="plus.google.com/+{{ site.google }}" href="http://plus.google.com/+{{ site.google }}" target="_blank">
@@ -39,10 +43,6 @@
     {% endif %} {% if site.lastfm %}
     <a class="social-link" title="last.fm/user/{{ site.lastfm }}" href="https://last.fm/user/{{ site.lastfm }}" target="_blank">
         <i class="social-link__icon fa fa-lastfm fa-2x"></i>
-    </a>
-    {% endif %} {% if site.github %}
-    <a class="social-link" title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank">
-        <i class="social-link__icon fa fa-github fa-2x"></i>
     </a>
     {% endif %} {% if site.stackoverflow %}
     <a class="social-link" title="stackoverflow.com/users/{{ site.stackoverflow }}" href="http://stackoverflow.com/users/{{ site.stackoverflow }}"
