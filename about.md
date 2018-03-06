@@ -2,13 +2,14 @@
 title: About
 layout: page
 ---
+
 <section>
   <h2>A little about myself</h2>
-  <p>I'm working as a frontend developer at <a href="http://www.impact.dk/">IMPACT A/S</a>. In my spare time I enjoy learning about anything related to functional programming and game development while working on various hobby projects.</p>
-  <p>Currently, I'm working my why way through <a href="http://haskellbook.com/">The Haskell Book</a> before delving into <a href="http://www.purescript.org/">PureScript</a>.</p>
+  <p>I'm working as a frontend developer at <a href="http://www.impact.dk/">IMPACT A/S</a>. In my spare time I enjoy learning about functional programming and game development.</p>
+  <p>Currently, I'm looking into ways of combining these two fields using <a href="http://www.purescript.org/">PureScript</a> and <a href="http://phaser.io/">Phaser.js</a>.
 </section>
 <section>
-  <h2>You can follow me here...</h2>
+  <h2>You can follow me on...</h2>
   <div class="flag-wrapper">
     <div class="flag">
       <a href="https://github.com/simsoll">
